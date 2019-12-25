@@ -1,6 +1,6 @@
-## AutoPhish, Summer 2019
+# AutoPhish, Summer 2019
 
-# IBM Resilient Function Development and Integration 
+## IBM Resilient Function Development and Integration 
 
 https://developer.ibm.com/security/resilient/functions/
 
