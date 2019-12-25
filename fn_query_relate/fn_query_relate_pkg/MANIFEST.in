@@ -1,0 +1,4 @@
+include README.md
+include fn_query_relate_pkg/util/*
+include fn_query_relate_pkg/LICENSE
+include doc/*

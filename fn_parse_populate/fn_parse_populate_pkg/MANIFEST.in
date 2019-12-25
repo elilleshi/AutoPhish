@@ -1,0 +1,4 @@
+include README.md
+include fn_parse_populate_pkg/util/*
+include fn_parse_populate_pkg/LICENSE
+include doc/*

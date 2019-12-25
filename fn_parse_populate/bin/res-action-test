@@ -1,0 +1,10 @@
+#!/Users/workusr/Desktop/python_env/fn_parse_populate/bin/python3.7
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from resilient_circuits.bin.res_action_test import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

@@ -1,0 +1,5 @@
+[console_scripts]
+finfo = resilient.bin.finfo:main
+gadget = resilient.bin.gadget:main
+res-keyring = resilient.bin.res_keyring:main
+

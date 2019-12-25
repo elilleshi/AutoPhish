@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FnQueryRelateFunctionComponent = fn_query_relate_pkg.components.fn_query_relate:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_query_relate_pkg.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_query_relate_pkg.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_query_relate_pkg.util.selftest:selftest_function
+

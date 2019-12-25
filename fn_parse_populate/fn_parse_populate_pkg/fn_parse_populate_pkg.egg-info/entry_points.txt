@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FnParsePopulateFunctionComponent = fn_parse_populate_pkg.components.fn_parse_populate:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_parse_populate_pkg.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_parse_populate_pkg.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_parse_populate_pkg.util.selftest:selftest_function
+
