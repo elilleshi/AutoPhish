@@ -1,15 +1,12 @@
 AutoPhish is a workflow within the IBM Resilient Platform which includes two
 functions, both of which are included in this repository. AutoPhish runs after 
-the Generic Email Script (`email_parsing_script.py`) determines that an email concerns
+a Generic Email Parsing Script determines that an email concerns
 phishing or scams. AutoPhish then parses email attachments, populates incident
 artifacts with information, then checks the data store on Resilient to determine
 whether the threats have been seen before. Incidents are escalated from events
 to incidents if they are known to be malignant. Knowing this helps analysts relate 
 incidents and automates the analysis process (from analyzing email headers to 
 response to assigned tasks).
-
-See "AutoPhish Documentation.pdf" for background on the Resilient platform 
-and where the AutoPhish project falls into the entire architecture. A development and installation walkthrough, as well as the Pre-Process and Post-Process scripts can be found there, as well. 
 
 The folders `fn_parse_populate` and `fn_query_relate` include the entire package 
 downloaded with `--codegen`, which provides all the necessary paths to successfully 
@@ -20,7 +17,7 @@ Resilient instance, and the entire function package allows it to be generated.
 The files containing the function implementations themselves are 
 `fn_parse_populate.py` and `fn_query_relate.py`, and their relative paths are 
 provided below. Pre-processing and Post-processing scripts for both functions are also provided. 
-I have gone ahead and packaged the functions and the `tar.gz` files can be found here as well:
+I have packaged the functions and the `tar.gz` files can be found here as well:
 
 PARSE AND POPULATE:
 -  function code: 
@@ -108,9 +105,3 @@ resilient-circuits customize
 
 - Ensure the function was updated by checking the “Last Modified” timestamp in GUI and using `resilient-circuits list`. 
 - AutoPhish contains two functions. This process should be repeated for `fn_parse_populate_pkg-1.0.0.tar.gz` and `fn_query_relate_pkg-1.0.0.tar.gz`, both of which are accessible in the AutoPhish repository. These functions should ultimately be combined in one workflow as shown in the architecture design above. 
-
-USAGE FOR TUFTS INFOSEC OFFICE:
-
-- Already installed on integration server (as of Aug2019)
-- sudo into integration server and `resilient-circuits run`
-- Menu-Item Rule "AutoPhish trigger" can be executed on incidents with type "Phishing"
