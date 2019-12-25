@@ -100,7 +100,7 @@ QUICK INTEGRATION GUIDE:
 
 - Use `scp` or `sftp` to transfer over the `tar.gz` files from local computer to desired integration server
 - Alter config file to reflect that of the production environment. It can be generated with `resilient-circuits config -c`. 
-- Sudo into integrations server after SSHing into your profile on `infosec-prod-01.uit.tufts.edu` (`sudo su - integration`)
+- Sudo into integrations server after SSHing into your profile on the Resilient server
 - NOTE: functions utilizing Python packages must be run on a compatible server (`fn_parse_populate` requires Python3.6+)
 
 ```
