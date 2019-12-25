@@ -1,13 +1,11 @@
-## AutoPhish 
+## AutoPhish, Summer 2019
 
-## Summer 2019
-
-IBM Resilient Function Development and Integration 
+# IBM Resilient Function Development and Integration 
 
 https://developer.ibm.com/security/resilient/functions/
 
 
-AutoPhish is a workflow within the IBM Resilient Platform which includes two
+**AutoPhish** is a workflow within the IBM Resilient Platform which includes two
 functions, both of which are included in this repository. AutoPhish runs after 
 a Generic Email Parsing Script determines that an email concerns
 phishing or scams. AutoPhish then parses email attachments, populates incident
