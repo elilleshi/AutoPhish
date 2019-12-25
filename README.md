@@ -30,7 +30,6 @@ PARSE AND POPULATE:
 -  function code: 
 `fn_parse_populate/fn_parse_populate_pkg/fn_parse_populate_pkg/components/fn_parse_populate.py`
 -  tar.gz:
-
 `fn_parse_populate/fn_parse_populate_pkg/dist/fn_parse_populate_pkg-1.0.0.tar.gz`
 
 Pre-Processing Script:
@@ -72,7 +71,6 @@ QUERY AND RELATE:
 -  function code: 
 `fn_query_relate/fn_query_relate_pkg/fn_query_relate_pkg/components/fn_query_relate.py` 
 -  tar.gz:
-
 `fn_query_relate/fn_query_relate_pkg/dist/fn_query_relate_pkg-1.0.0.tar.gz`
 
 Pre-Processing Script:
