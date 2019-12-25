@@ -1,8 +1,6 @@
 '''
 Eliriana Lleshi
 eliriana.lleshi@tufts.edu
-Information Security Software Engineer
-TTS Information Security
 Tufts University
 Summer 2019
 '''
